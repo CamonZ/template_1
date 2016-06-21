@@ -1,0 +1,12 @@
+%icon-font {
+  font: normal normal normal #{$fa-font-size-base}/#{$fa-line-height-base} FontAwesome; 
+  font-size: inherit; 
+  text-rendering: auto; 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+%icon-for-header {
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}

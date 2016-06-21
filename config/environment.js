@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'agency-theme',
+    modulePrefix: 'static-site',
     environment: environment,
     baseURL: '/',
     locationType: 'auto',
