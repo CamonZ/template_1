@@ -68,8 +68,12 @@ nav {
       &:first-child > li { border-right: none; }
     }
 
+    @include media-breakpoint-up(md) {
+      section li { padding: 1rem 1.75rem; }
+    }
+
     @include media-breakpoint-up(lg) {
-      section:last-child { float: right; }
+      section:last-child { float: right;}
       section li { padding: 1rem 2rem; }
       section li:last-child { border-right: 1px solid lighten($gray-dark, 30%); }
     }
